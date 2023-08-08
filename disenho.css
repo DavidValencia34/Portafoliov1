@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+header {
+    background-color: #122543;
+    padding: 1px 0;
+    
+
+}
+
+.logo-container {
+    display: flex;
+    /* Display the logo and h2 in a row */
+    align-items: center;
+    /* Center the items vertically */
+}
+
+.logoing {
+    width: 140px;
+    height: 141px;
+}
+
+.cabeza {
+    color: #FFFFFF;
+    width: 1094px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.cabezap {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav {
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font: 150% sans-serif;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+/* body*/
+.aboutme {
+    padding: 10px 0px;
+    background-color: #0B1629;
+    color: #FFFFFF;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.titulo,.titulo2 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+}
+.titulo1{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 80%;
+}
+
+.circulo {
+    width: 353px;
+    height: 353px;
+    background: #8CC4DF;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+/*proyectos*/
+.projects {
+    padding: 10px 0px;
+    background-color: #122543;
+    color: #FFFFFF;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    
+}
+.cuadro1 , .cuadro2,.cuadro3,.cuadro4,.cuadro5,.cuadro6{
+    width: 442px;
+    height: 150px;
+    background: #8cc3df5a;
+    border-radius: 40px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+ 
+/*habilidades*/
+.skills {
+    padding: 10px 0px;
+    background-color: #0B1629;
+    color: #FFFFFF;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.cuadroalto,.cuadroalto1,.cuadroalto2{
+    width: 256px;
+    height: 505px;
+    background: #8cc3df2e;
+    border-radius: 40px;
+    display: center;
+    margin: 10px;
+}
+.imagenes{
+    margin-top: 30%;
+    border-radius: 17px;
+}
+.imagenes1{
+    margin-top: 20%;
+    border-radius: 17px;
+}
+.imagenes2{
+    margin-top: 45%;
+    border-radius: 17px;
+}
+.skill,.skill1,.skill2{
+    position: relative;
+    top: 5%;
+    color: #FFFFFF;
+    font: 30px sans-serif;
+    text-align: center;
+    
+}
