@@ -78,18 +78,22 @@ nav li {
     font-family: 'Roboto', sans-serif;
     margin-left: 80%;
 }
-
+ .aboutme1{
+    padding: 8% 2%;
+ }
 .circulo {
-    
+
     margin-left: 50px;
     margin-right: 90px;
     margin-top: 40px;
     margin-bottom: 0px;
     float: left;
+    
 }
-.texto1{
+
+.texto1 {
     margin-top: 30px;
- margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -125,9 +129,16 @@ nav li {
     color: #FFFFFF;
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
+
+}
+
+.skilll {
+    top: 15;
     display: flex;
     align-items: center;
+    padding: 3% 20% 5%;
 }
+
 
 .cuadroalto,
 .cuadroalto1,
